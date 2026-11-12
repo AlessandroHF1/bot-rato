@@ -1,7 +1,7 @@
 import os
 import discord
 # ---------- Configuração ----------
-TOKEN = "DISCORD_TOKEN"
+TOKEN = os.getenv("DISCORD_TOKEN")
 TRAP_CHANNEL_ID = 1570190395923505263   # ID do canal armadilha
 LOG_CHANNEL_ID = 1570259380107083846    # ID do canal de logs
 

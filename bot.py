@@ -2,6 +2,7 @@ import os
 import discord
 # ---------- Configuração ----------
 TOKEN = os.getenv("DISCORD_TOKEN")
+print("tamanho:", len(TOKEN) if TOKEN else None, "| pontos:", TOKEN.count(".") if TOKEN else None)
 TRAP_CHANNEL_ID = 1570190395923505263   # ID do canal armadilha
 LOG_CHANNEL_ID = 1570259380107083846    # ID do canal de logs
 
